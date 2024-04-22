@@ -1,0 +1,50 @@
+/* Add purple and magenta theme CSS */
+.cnohsoh {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    transform: translate(70%,50%);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aoryu {
+    color: #6a0dad; /* Purple color */
+    text-align: center;
+    font-size: 4vh;
+  }
+  
+  .pamjry {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .mnasc {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff00ff; /* Magenta color */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .mnasc:hover {
+    background-color: #d400d4; /* Darker magenta color on hover */
+  }
+  
+  .ryhfnj {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+  }
+  

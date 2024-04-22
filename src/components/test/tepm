@@ -1,0 +1,40 @@
+                     <li>
+                      <input
+                        type="radio"
+                        id={`option_${question.question_id}_0`}
+                        name={`question_${question.question_id}`}
+                        checked={selectedOptions[question.question_id] === 0}
+                        onChange={() => handleOptionSelect(question.question_id, 0)}
+                      />
+                      <label htmlFor={`option_${question.question_id}_0`}>{question.option_1}</label>
+                    </li>
+                    <li>
+                      <input
+                        type="radio"
+                        id={`option_${question.question_id}_1`}
+                        name={`question_${question.question_id}`}
+                        checked={selectedOptions[question.question_id] === 1}
+                        onChange={() => handleOptionSelect(question.question_id, 1)}
+                      />
+                      <label htmlFor={`option_${question.question_id}_1`}>{question.option_2}</label>
+                    </li>
+                    <li>
+                      <input
+                        type="radio"
+                        id={`option_${question.question_id}_2`}
+                        name={`question_${question.question_id}`}
+                        checked={selectedOptions[question.question_id] === 2}
+                        onChange={() => handleOptionSelect(question.question_id, 2)}
+                      />
+                      <label htmlFor={`option_${question.question_id}_2`}>{question.option_3}</label>
+                    </li>
+                    <li>
+                      <input
+                        type="radio"
+                        id={`option_${question.question_id}_3`}
+                        name={`question_${question.question_id}`}
+                        checked={selectedOptions[question.question_id] === 3}
+                        onChange={() => handleOptionSelect(question.question_id, 3)}
+                      />
+                      <label htmlFor={`option_${question.question_id}_3`}>{question.option_4}</label>
+                    </li>

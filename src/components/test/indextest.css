@@ -1,0 +1,70 @@
+/* indextest.css */
+
+/* Container styles */
+.ipsumx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header styles */
+  .guiufhfjj {
+    margin-bottom: 30px;
+  }
+  
+  .guiufhfjj h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  /* Test card container styles */
+  .hewyryryor {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Test card content styles */
+  .iofoioiioc {
+    padding: 20px;
+  }
+  
+  .iofoioiioc h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .test-class {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Button styles */
+  .take-test-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .take-test-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Link styles */
+  .take-test-button a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .take-test-button a:hover {
+    text-decoration: underline;
+  }
+  

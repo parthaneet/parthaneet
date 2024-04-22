@@ -1,0 +1,102 @@
+/* ResultPage.css */
+
+.test-results-container {
+  padding: 20px;
+  
+}
+
+.test-result {
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid rgb(13, 209, 81);
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px 3px lightgray;
+}
+
+.test-results-container-div1{
+  background-color: #fff;
+  width:50%;
+  height:10vh;
+  z-index: -2;
+  margin-bottom:8vh;
+  box-shadow: 2px 2px 5px 3px grey;
+  transform: translateX(-10%);
+}
+
+.test-results-container-div2{
+  background:linear-gradient(45deg, rgb(127, 254, 220), green);
+  width:98%;
+  height:90%;
+  transform:translate(1%,30%);
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+
+.test-results-container-div2 h2{
+  padding-top: 10px;
+}
+
+.test-result h3 {
+  color: black;
+}
+
+.subject-info {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 22px;
+  padding: 15px;
+  box-shadow: 1px 1px 2px 2px lightgreen;
+  width: calc(50% - 20px);
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  background:radial-gradient(ellipse,#a9ffab,#00a606) ;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.progress span {
+  margin-right: 10px;
+}
+
+
+.TMandTPWrapper {
+  margin-top: 10px; /* Add margin if needed */
+  display: flex; /* Ensure elements are displayed in a flex container */
+  justify-content: space-between; /* Align items with space between them */
+}
+
+.TMandTP {
+  border: 3px solid #4CAF50;
+  background:radial-gradient(ellipse,#cffed1,#67fb6cc7) ;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 20px; /* Rounded corners */
+}
+
+.TMandTP p {
+  margin: 0; /* Reset default margin */
+}
+
+

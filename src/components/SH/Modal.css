@@ -1,0 +1,49 @@
+/* Modal.css */
+.fgfcblcBLFL {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .zyokncWLsT {
+    background-color: #f3d250; /* Golden color */
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+  }
+  
+  .kfktfPVMDz {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .kfktfPVMDz h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .fBpcYmOBos {
+    color: #333;
+  }
+  
+  .fBpcYmOBos button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #333; /* Dark color for contrast */
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .fBpcYmOBos button:hover {
+    background-color: #555; /* Darker shade on hover */
+  }
+  

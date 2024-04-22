@@ -1,0 +1,195 @@
+body{
+  height:100rem;
+}
+.schedule {
+    font-family: Arial, sans-serif;
+    margin: 0 auto; /* Center the table horizontally */
+    max-width: 800px; /* Set maximum width for the table */
+    overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+  }
+  
+  .schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #4CAF50; /* Green border */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* 3D-like shadow */
+  }
+  
+  .schedule th,
+  .schedule td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .schedule th {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text color for header */
+  }
+  
+  .schedule tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .schedule tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style status text based on its value */
+  .schedule .over {
+    color: red;
+    font-style: italic;
+  }
+  
+  .schedule .going {
+    color: green;
+  }
+  
+  .schedule .upcoming {
+    color: black;
+    font-style: italic;
+  }
+  
+  /* Responsive layout adjustments */
+  @media only screen and (max-width: 600px) {
+    .schedule th,
+    .schedule td {
+      padding: 6px;
+      font-size: 14px;
+    }
+  }
+  
+  .currentTime{
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+    width:max-content;
+    font-weight:500;
+    color:white;
+    background-color: #4CAF50;
+  }
+  
+
+/* Additional CSS for new sections */
+
+.featured-courses {
+  margin-top: 50px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-courses h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.featured-courses ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.featured-courses li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.newsletter {
+  margin-top: 50px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #45a049;
+}
+/* Updated CSS for testimonials */
+
+.testimonials {
+  margin-top: 50px;
+}
+
+.testimonials h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.testimonial p:last-child {
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.testimonial-feedback {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.like-btn,
+.dislike-btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.like-btn:hover,
+.dislike-btn:hover {
+  background-color: #45a049;
+}
