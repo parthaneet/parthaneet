@@ -1,3 +1,5 @@
+#Hello everyone! I am a 17 years old teenager and dont have any computer science degree and experience with compared to graduated persons on cse.I created this project using chatGPT only.
+
 # Project Setup
 
 ## Installation of Dependencies
